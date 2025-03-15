@@ -64,3 +64,16 @@ body {
   object-fit: cover; /* Ensures the image is cropped to fit without distortion */
   border-radius: 5px; /* Optional: Rounds corners */
 }
+
+body {
+    font-family: 'Handjet', cursive; /* Apply Handjet font to the whole page */
+    color: white; /* Ensures text is visible on dark background */
+}
+
+h4 {
+    font-family: 'Bebas Neue', sans-serif; /* Apply Bebas Neue to headings */
+}
+
+p {
+    font-family: 'Goudy Bookletter 1911', serif; /* Apply Goudy Bookletter to paragraphs */
+}
