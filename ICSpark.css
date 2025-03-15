@@ -21,10 +21,12 @@
   padding: 2px 16px;
 }
 .banner {
-  width: 100vw;  /* Full viewport width */
-  height: 250px; /* Adjust height as needed */
-  overflow: hidden; /* Prevents overflow issues */
+    width: 100%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    object-fit: cover; /* Ensures the image covers the full area */
+    display: block; /* Removes any extra spacing */
 }
+
 
 .banner img {
   width: 100%;  /* Ensures the image spans the full width */
